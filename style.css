@@ -1,0 +1,92 @@
+/* navbar related styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.nav_links {
+  display: flex;
+}
+.nav_item {
+  list-style: none;
+  margin-right: 30px;
+}
+.nav_link {
+  text-decoration: none;
+  font-weight: 500;
+}
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+.Banner {
+  display: flex;
+  align-items: center;
+}
+.right_nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Plants_card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.card_btn {
+  background-color: #e95a08;
+  text-align: center;
+  border: none;
+}
+.card_btn_h2 {
+  font-size: 22px;
+}
+.Plants_Lover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+/* Plants_Lover_text */
+.Plants_Lover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+.Plants_Lover_left {
+  position: relative;
+  width: 400px;
+}
+
+.flower {
+  width: 100%;
+  height: auto;
+}
+.badge {
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: 100px;
+}
+
+/* Plants_Lover_text */
+
+.Plants_Lover_right {
+  margin-left: 40px;
+  max-width: 500px;
+}
+
+.Plants_Lover_right h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.Plants_Lover_right ul {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.Plants_Lover_right li {
+  margin-bottom: 15px;
+}
