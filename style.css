@@ -194,7 +194,7 @@ a {
   color: rgba(0, 0, 0, 0.5);
 }
 
-/*leatest deatiels*/
+/* leatest deatiels */
 
 .latest_deals {
   padding: 50px 0;
@@ -216,24 +216,127 @@ a {
 }
 .leatest_img {
   display: flex;
-  margin: 20px 0;
-  gap: 28px;
+  gap: 20px;
 }
-.leatesr_left_img {
-  width: 100%;
+.leatest_left_img {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
 }
-.leatesr_left_img img {
+.left_bloom {
+  padding: 20px;
+  background-image: url(./image/deal-bloom.png);
   border-radius: 20px;
+  width: 366px;
+  height: 206px;
+  color: white;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+  position: relative;
 }
-.leatest_right_img {
+.left_bloom:before {
+  content: "";
+  position: absolute;
   width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
 }
-.leatest_right_img img {
+.left_bloom h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  z-index: 1;
+}
+.left_bloom a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: underline;
+  z-index: 1;
+}
+.left_ana {
+  background-image: url(./image/deal-ana.png);
+  padding: 20px;
   border-radius: 20px;
+  width: 366px;
+  height: 206px;
+  color: white;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.left_ana:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+.left_ana h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  z-index: 1;
+}
+.left_ana a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: underline;
+  z-index: 1;
+}
+.leatesr_right_img {
+  width: 100%;
+  background-image: url(./image/deal-zabo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 10px;
+  overflow: hidden;
+}
+.leatesr_right_img:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+.leatesr_right_img h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+  z-index: 1;
+}
+.leatesr_right_img a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: underline;
+  z-index: 1;
 }
 
-/*-- join brunch*/
-
+/* join brunch */
 .join_bunch {
   display: flex;
   background-image: url(./image/news-letter-bg.png);
@@ -284,7 +387,7 @@ input {
   cursor: pointer;
 }
 
-/*footer section*/
+/* footer section */
 
 .footer_section {
   display: flex;
@@ -340,4 +443,7 @@ input {
 }
 .middle_right ul li a {
   color: rgba(0, 0, 0, 0.5);
+}
+.latest_deals {
+  padding: 50px 0;
 }
