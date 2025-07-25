@@ -5,42 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flower Market</title>
     <link rel="stylesheet" href="./style.css" />
-    <!-- font awesome cdn -->
     <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
   </head>
   <body>
-    <header>
-      <nav class="navbar container">
-        <div class="left_nav">
-          <img src="image/logo.png" alt="" />
+    <header class="container header">
+      <div class="Logo">
+        <img src="image/logo.png" alt="" />
+      </div>
+      <nav class="navbar">
+        <div class="menu">
+          <ul class="nav_links">
+            <li class="nav_item"><a href="" class="nav_link">Home</a></li>
+            <li class="nav_item"><a href="" class="nav_link">Shop</a></li>
+            <li class="nav_item"><a href="" class="nav_link"></a>About us</li>
+          </ul>
         </div>
-        <div class="right_nav">
-          <div class="nav_icon">
-            <ul class="nav_links">
-              <li class="nav_item"><a href="" class="nav_link">Home</a></li>
-              <li class="nav_item"><a href="" class="nav_link">Shop</a></li>
-              <li class="nav_item"><a href="" class="nav_link"></a>About us</li>
-            </ul>
-          </div>
-          <div>
-            <li class="nav_item">
-              <a href="" class="nav_link"></a
-              ><span><i class="fa-solid fa-cart-shopping"></i></span>Cart ($56)
-            </li>
-          </div>
+        <div>
+          <a href="" class="cart_icon">
+            <i
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+              >
+                <g fill="none">
+                  <circle cx="7.5" cy="18.5" r="1.5" fill="currentColor" />
+                  <circle cx="16.5" cy="18.5" r="1.5" fill="currentColor" />
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 5h2l.6 3m0 0L7 15h10l2-7z"
+                  />
+                </g>
+              </svg>
+            </i>
+            Cart ($56)</a
+          >
         </div>
       </nav>
     </header>
     <main>
-      <section class="Banner container">
+      <section class="hero container">
         <div class="fresh_flowers">
-          <h1 class="Flower_title">ALWAYS FRESH <br />FLOWERS</h1>
+          <h1 class="flower_title">
+            ALWAYS <span class="orange">FRESH <br />FLOWERS</span>
+          </h1>
           <p class="flowers_description">
             Indulge your senses with the beauty and fragrance of our fresh
             flower shop. From classic roses to exotic blooms, we offer a wide
@@ -48,92 +63,160 @@
           </p>
         </div>
         <div class="flowers_image">
-          <img src="image/hero-flower.png" alt="" />
+          <!-- <img src="image/hero-flower.png" alt="" /> -->
         </div>
       </section>
-      <section class="Plants">
-        <div class="Plants_items">
-          <h2>Our Plants</h2>
+      <section class="container plants">
+        <div class="plants_head">
+          <h2 class="sec_heading">Our <span class="orange">Plants</span></h2>
           <p>
             Indulge your senses with the beauty and fragrance of our fresh
-            flower shop. From classic roses to exotic blooms, we offer a wide
-            variety of fresh.
+            flower shop. From<br />classic roses to exotic blooms, we offer a
+            wide variety of fresh.
           </p>
         </div>
+        <div class="plants_grid">
+          <article class="product_card">
+            <img src="image/sample-flower-image.png" alt="" />
+            <div class="card_content">
+              <h3>Lily Blossom</h3>
+              <span class="price">20 USD</span>
+              <button class="card_btn">ADD TO CART</button>
+            </div>
+          </article>
+          <article class="product_card">
+            <img src="image/sample-flower-image.png" alt="" />
+            <div class="card_content">
+              <h3>Lily Blossom</h3>
+              <span class="price">20 USD</span>
+              <button class="card_btn">ADD TO CART</button>
+            </div>
+          </article>
+          <article class="product_card">
+            <img src="image/sample-flower-image.png" alt="" />
+            <div class="card_content">
+              <h3>Lily Blossom</h3>
+              <span class="price">20 USD</span>
+              <button class="card_btn">ADD TO CART</button>
+            </div>
+          </article>
+          <article class="product_card">
+            <img src="image/sample-flower-image.png" alt="" />
+            <div class="card_content">
+              <h3>Lily Blossom</h3>
+              <span class="price">20 USD</span>
+              <button class="card_btn">ADD TO CART</button>
+            </div>
+          </article>
+          <article class="product_card">
+            <img src="image/sample-flower-image.png" alt="" />
+            <div class="card_content">
+              <h3>Lily Blossom</h3>
+              <span class="price">20 USD</span>
+              <button class="card_btn">ADD TO CART</button>
+            </div>
+          </article>
+          <article class="product_card">
+            <img src="image/sample-flower-image.png" alt="" />
+            <div class="card_content">
+              <h3>Lily Blossom</h3>
+              <span class="price">20 USD</span>
+              <button class="card_btn">ADD TO CART</button>
+            </div>
+          </article>
+          <article class="product_card">
+            <img src="image/sample-flower-image.png" alt="" />
+            <div class="card_content">
+              <h3>Lily Blossom</h3>
+              <span class="price">20 USD</span>
+              <button class="card_btn">ADD TO CART</button>
+            </div>
+          </article>
+          <article class="product_card">
+            <img src="image/sample-flower-image.png" alt="" />
+            <div class="card_content">
+              <h3>Lily Blossom</h3>
+              <span class="price">20 USD</span>
+              <button class="card_btn">ADD TO CART</button>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="container plants_lover">
+        <div class="lover_image">
+          <img class="back_img" src="image/flower-store.png" alt="" />
+          <img class="badge_img" src="image/trusted-badge.png" alt="" />
+        </div>
+        <div class="lover_content">
+          <h2 class="lover_heading">
+            Flower & Plants <br />
+            Lover
+          </h2>
+          <ul class="lover_description">
+            <li>
+              Indulge your senses with the beauty and fragrance of our fresh
+              flower shop. From classic roses to exotic blooms, we offer a wide
+              variety of fresh.
+            </li>
+            <br />
+            <li>
+              Indulge your senses with the beauty and fragrance of our fresh
+              flower shop. From classic roses to exotic blooms, we offer a wide
+              variety of fresh.
+            </li>
+            <br />
+            <li>
+              Indulge your senses with the beauty and fragrance of our fresh
+              flower shop. From classic roses to exotic blooms, we offer a wide
+              variety of fresh.
+            </li>
+            <br />
+            <li>
+              Indulge your senses with the beauty and fragrance of our fresh
+              flower shop. From classic roses to exotic blooms, we offer a wide
+              variety of fresh.
+            </li>
+            <br />
+          </ul>
+        </div>
+      </section>
+      <!--Leatest detiels-->
+      <section class="container latest_deals">
+        <div class="leatest_contect">
+          <h2 class="latest_heading">
+            <span class="orange">Latest</span> Deals
+          </h2>
+          <p>
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From<br />
+            classic roses to exotic blooms, we offer a wide variety of fresh.
+          </p>
+        </div>
+        <div class="leatest_img">
+          <div class="leatest_right_img">
+            <img src="./image/deal-bloom.png" alt="" />
+            <img src="./image/deal-ana.png" alt="" />
+          </div>
 
-        <div class="Plants_card">
-          <div class="card">
-            <img src="image/sample-flower-image.png" alt="" />
-            <h3>Lily Blossom 20 USD</h3>
-            <button class="card_btn">ADD TO CART</button>
-          </div>
-          <div class="card">
-            <img src="image/sample-flower-image.png" alt="" />
-            <h3>Lily Blossom 20 USD</h3>
-            <button class="card_btn">ADD TO CART</button>
-          </div>
-          <div class="card">
-            <img src="image/sample-flower-image.png" alt="" />
-            <h3>Lily Blossom 20 USD</h3>
-            <button class="card_btn">ADD TO CART</button>
-          </div>
-          <div class="card">
-            <img src="image/sample-flower-image.png" alt="" />
-            <h3>Lily Blossom 20 USD</h3>
-            <button class="card_btn">ADD TO CART</button>
-          </div>
-          <div class="card">
-            <img src="image/sample-flower-image.png" alt="" />
-            <h3>Lily Blossom 20 USD</h3>
-            <button class="card_btn">ADD TO CART</button>
-          </div>
-          <div class="card">
-            <img src="image/sample-flower-image.png" alt="" />
-            <h3>Lily Blossom 20 USD</h3>
-            <button class="card_btn">ADD TO CART</button>
-          </div>
-          <div class="card">
-            <img src="image/sample-flower-image.png" alt="" />
-            <h3>Lily Blossom 20 USD</h3>
-            <button class="card_btn">ADD TO CART</button>
-          </div>
-          <div class="card">
-            <img src="image/sample-flower-image.png" alt="" />
-            <h3>Lily Blossom 20 USD</h3>
-            <button class="card_btn">ADD TO CART</button>
+          <div class="leatesr_left_img">
+            <img src="./image/deal-zabo.png" alt="" />
           </div>
         </div>
-        <!-- Plants Lover Section -->
-        <!-- img part -->
-        <div class="Plants_Lover">
-          <div class="Plants_Lover_left">
-            <img src="image/flower-store.png" alt="flower" />
-            <img src="image/trusted-badge.png" alt="badge" />
-          </div>
-          <!-- text content -->
-          <div class="Plants_Lover_right">
-            <h2>Flower & Plants Lover</h2>
-            <ul>
-              <li>
-                Indulge your senses with the beauty and fragrance of our fresh
-                flower shop. From classic roses to exotic blooms, we offer a
-                wide variety of fresh.
-              </li>
-              <li>
-                Indulge your senses with the beauty and fragrance of our fresh
-                flower shop. From classic roses to exotic blooms, we offer a
-                wide variety of fresh.
-              </li>
-              <li>
-                Indulge your senses with the beauty and fragrance of our fresh
-                flower shop. From classic roses to exotic blooms, we offer a
-                wide variety of fresh.
-              </li>
-            </ul>
+      </section>
+
+      <!-- join bunch -->
+
+      <section class="join_bunch">
+        <div class="join_content">
+          <h2 class="join_heading">Join the colorful Bunch</h2>
+          <div class="search_from">
+            <input type="email" name="" id="" placeholder="Write email" />
+            <button class="join_btn">Subscribe</button>
           </div>
         </div>
       </section>
     </main>
+
     <footer></footer>
   </body>
 </html>
