@@ -1,0 +1,106 @@
+@media only screen and (max-width: 426px) {
+  .menu {
+    display: none;
+  }
+  .leatest_img {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .plants_lover {
+    display: flex;
+    flex-direction: column;
+  }
+  .lover_image {
+    position: relative;
+    width: 100%;
+  }
+  .lover_content {
+    width: 100%;
+    text-align: left;
+    padding: 20px 0;
+  }
+  .badge_img {
+    display: none;
+  }
+  .plants_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .plants {
+    display: flex;
+    padding: 25px 20px;
+  }
+  .product_card img {
+    height: 200px;
+  }
+  .leatesr_right_img h2 {
+    font-size: 24px;
+  }
+  .leatest_left_img {
+    width: 100%;
+  }
+  .leatesr_right_img {
+    width: 100%;
+    height: 200px;
+    max-width: -webkit-fill-available;
+  }
+  .latest_deals {
+    padding: 25px 20px;
+  }
+  ul.lover_description {
+    padding-left: 20px;
+  }
+  .lover_heading br {
+    display: none;
+  }
+  .plants_lover {
+    padding: 20px 20px;
+  }
+  .join_bunch {
+    height: 260px;
+  }
+  .hero {
+    height: 300px;
+    position: relative;
+  }
+  .fresh_flowers {
+    width: 100%;
+    z-index: 1;
+  }
+  .hero::before {
+    content: "";
+    position: absolute;
+    background-color: #ffffff;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+  .Logo img {
+    width: 90px;
+  }
+  .footer_section {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer_left {
+    align-items: start;
+    width: 100%;
+  }
+  .middle_left {
+    width: 100%;
+  }
+  .middle_right {
+    width: 100%;
+  }
+  .footer_right {
+    width: 100%;
+  }
+
+  .footer_section {
+    padding: 25px 20px;
+    gap: 20px;
+  }
+}
