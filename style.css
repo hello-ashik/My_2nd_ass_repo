@@ -1,10 +1,10 @@
 /* navbar related styles */
-*{
+* {
   padding: 0px;
   margin: 0px;
   font-family: "Inter", sans-serif;
 }
-a{
+a {
   text-decoration: none;
 }
 .container {
@@ -17,9 +17,9 @@ a{
   justify-content: space-between;
 }
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .nav_links {
   display: flex;
@@ -29,10 +29,10 @@ a{
   margin-right: 30px;
 }
 .cart_icon {
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-    text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  text-decoration: none;
 }
 .hero {
   display: flex;
@@ -51,7 +51,7 @@ a{
   font-weight: 700;
 }
 .orange {
-  color: #E95A08;
+  color: #e95a08;
 }
 .right_nav {
   display: flex;
@@ -65,15 +65,15 @@ a{
   text-align: center;
 }
 .plants {
-    display: flex;
-    flex-direction: column;
-    padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0;
 }
-.plants_head{
+.plants_head {
   padding: 25px 0;
   text-align: center;
 }
-.sec_heading{
+.sec_heading {
   margin: 0px;
 }
 .plants_grid {
@@ -82,22 +82,22 @@ a{
   gap: 10px;
 }
 .product_card {
-    background-color: #fff;
-    text-align: center;
+  background-color: #fff;
+  text-align: center;
 }
 .product_card img {
-    width: 100%;
-    height: 322px;
-    object-fit: cover;
-    margin-bottom: 20px;
+  width: 100%;
+  height: 322px;
+  object-fit: cover;
+  margin-bottom: 20px;
 }
-.card_content{
- padding-top: 10px;
+.card_content {
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
-.card_content h3{
+.card_content h3 {
   font-size: 20px;
   font-weight: 500;
   margin: 0px;
@@ -167,13 +167,13 @@ a{
   text-align: start;
   padding: 50px;
 }
-.lover_heading{
+.lover_heading {
   text-align: left !important;
   font-size: clamp(1.5rem, 0.9091rem + 2.9545vw, 3.125rem);
   font-weight: bold;
   margin-bottom: 20px;
 }
-.back_img{
+.back_img {
   width: 100%;
   height: 597px;
 }
@@ -183,227 +183,99 @@ a{
   right: -60px;
   width: 200px;
 }
-.lover_heading{
+.lover_heading {
   font-size: clamp(1.5rem, 0.9091rem + 2.9545vw, 3.125rem);
   font-weight: bold;
   margin-bottom: 20px;
   text-align: center;
-  
 }
-.lover_description{
+.lover_description {
   font-size: 22px;
-  color:rgba(0, 0, 0, 0.50);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 /*leatest deatiels*/
 
-.latest_deals{
+.latest_deals {
   padding: 50px 0;
 }
 
-.leatest_contect{
+.leatest_contect {
   padding: 25px 0;
   text-align: center;
-  
 }
-.latest_heading{
+.latest_heading {
   font-size: clamp(1.5rem, 0.9091rem + 2.9545vw, 3.125rem);
   font-weight: bold;
   margin-bottom: 20px;
   text-align: center;
-
 }
-.leatest_contect p{
-    font-size: 22px;
-  color:rgba(0, 0, 0, 0.50);
-
+.leatest_contect p {
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
 }
-.leatest_img{
+.leatest_img {
   display: flex;
   margin: 20px 0;
   gap: 28px;
- 
 }
-.leatest_right_img img{
+.leatesr_left_img {
+  width: 100%;
+}
+.leatesr_left_img img {
   border-radius: 20px;
-  
-
 }
-.leatesr_left_img{
-  gap: 28px;
+.leatest_right_img {
+  width: 100%;
 }
-.leatesr_left_img img{
+.leatest_right_img img {
   border-radius: 20px;
-
-  
 }
-
 
 /*-- join brunch*/
 
-.join_bunch{
+.join_bunch {
   display: flex;
- background-image: url(./image/news-letter-bg.png);
- background-size: cover;
- background-repeat: no-repeat;
- width: 1440;
- height: 533px;
- justify-content: center;
- align-items: center;
-  
+  background-image: url(./image/news-letter-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1440;
+  height: 533px;
+  justify-content: center;
+  align-items: center;
 }
 
-.join_content{
+.join_content {
   width: 830px;
   height: 141px;
   text-align: center;
 }
-  
-.join_heading{
+
+.join_heading {
   font-size: clamp(1.5rem, 0.9091rem + 2.9545vw, 3.125rem);
   font-weight: bold;
   color: #fff;
   margin-bottom: 20px;
 }
-.search_from{
+.search_from {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-input{
+input {
   padding-left: 20px;
   font-size: 16px;
-  color:rgba(0, 0, 0, 0.50) ;
+  color: rgba(0, 0, 0, 0.5);
   width: 830px;
   height: 50px;
   text-align: start;
   border: none;
 }
-.join_btn{
- background-color: #e95a08;
- width: 186px;
- height: 50px;
- font-size: 16px;
- text-align: center;
- border: none;
- padding: 15px;
- color: #fff;
- font-weight: 600;
- cursor: pointer;
- 
-  
- 
-/* navbar related styles */
-*{
-  padding: 0px;
-  margin: 0px;
-  font-family: "Inter", sans-serif;
-}
-a{
-  text-decoration: none;
-}
-.container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0px 20px;
-}
-.navbar {
-  display: flex;
-  justify-content: space-between;
-}
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.nav_links {
-  display: flex;
-}
-.nav_item {
-  list-style: none;
-  margin-right: 30px;
-}
-.cart_icon {
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-    text-decoration: none;
-}
-.hero {
-  display: flex;
-  align-items: center;
-  height: 600px;
-  background-image: url("image/hero-flower.png");
-  background-size: contain;
-  background-position: bottom right;
-  background-repeat: no-repeat;
-}
-.fresh_flowers {
-  width: 50%;
-}
-.flower_title {
-  font-size: clamp(1.5rem, 0.5682rem + 4.6591vw, 4.0625rem);
-  font-weight: 700;
-}
-.orange {
-  color: #E95A08;
-}
-.right_nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.sec_heading {
-  font-size: clamp(1.5rem, 0.9091rem + 2.9545vw, 3.125rem);
-  font-weight: bold;
-  margin-bottom: 20px;
-  text-align: center;
-}
-.plants {
-    display: flex;
-    flex-direction: column;
-    padding: 50px 0;
-}
-.plants_head{
-  padding: 25px 0;
-  text-align: center;
-}
-.sec_heading{
-  margin: 0px;
-}
-.plants_grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-}
-.product_card {
-    background-color: #fff;
-    text-align: center;
-}
-.product_card img {
-    width: 100%;
-    height: 322px;
-    object-fit: cover;
-    margin-bottom: 20px;
-}
-.card_content{
- padding-top: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-.card_content h3{
-  font-size: 20px;
-  font-weight: 500;
-  margin: 0px;
-}
-.price {
-  font-size: 22px;
-  font-weight: 700;
-  color: #000000;
-}
-.card_btn {
+.join_btn {
   background-color: #e95a08;
+  width: 186px;
+  height: 50px;
+  font-size: 16px;
   text-align: center;
   border: none;
   padding: 15px;
@@ -411,181 +283,61 @@ a{
   font-weight: 600;
   cursor: pointer;
 }
-.card_btn_h2 {
+
+/*footer section*/
+
+.footer_section {
+  display: flex;
+  width: 1440px;
+  height: 348px;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.footer_left {
+  align-items: start;
+  width: 359px;
+  height: 179px;
+}
+.footer_description {
   font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
 }
-.Plants_Lover {
+
+.footer_middle {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 50px;
 }
-/* Plants_Lover_text */
-.Plants_Lover {
+
+.footer_right {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 50px;
+  justify-content: space-between;
+  width: 216px;
+  height: 36px;
 }
-.Plants_Lover_left {
-  position: relative;
-  width: 400px;
+.icon_footer {
+  width: 30px;
+  height: 30px;
 }
+.icon_twitter {
+  width: 25px;
+  height: 25px;
+}
+.middle_left ul li {
+  width: 85px;
+  height: 48px;
+  gap: 10px;
+  list-style: none;
+}
+.middle_left ul li a {
+  color: rgba(0, 0, 0, 0.5);
+}
+.middle_right ul li {
+  width: 128px;
+  height: 48px;
 
-.flower {
-  width: 100%;
-  height: auto;
+  gap: 10px;
+  list-style: none;
 }
-.badge {
-  position: absolute;
-  top: -30px;
-  left: -30px;
-  width: 100px;
-}
-
-/* Plants_Lover_text */
-
-.plants_lover {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 50px;
-}
-.lover_image {
-  position: relative;
-  width: 50%;
-}
-.lover_content {
-  width: 50%;
-  text-align: start;
-  padding: 50px;
-}
-.lover_heading{
-  text-align: left !important;
-  font-size: clamp(1.5rem, 0.9091rem + 2.9545vw, 3.125rem);
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-.back_img{
-  width: 100%;
-  height: 597px;
-}
-.badge_img {
-  position: absolute;
-  top: -95px;
-  right: -60px;
-  width: 200px;
-}
-.lover_heading{
-  font-size: clamp(1.5rem, 0.9091rem + 2.9545vw, 3.125rem);
-  font-weight: bold;
-  margin-bottom: 20px;
-  text-align: center;
-  
-}
-.lover_description{
-  font-size: 22px;
-  color:rgba(0, 0, 0, 0.50);
-}
-
-/*leatest deatiels*/
-
-.latest_deals{
-  padding: 50px 0;
-}
-
-.leatest_contect{
-  padding: 25px 0;
-  text-align: center;
-  
-}
-.latest_heading{
-  font-size: clamp(1.5rem, 0.9091rem + 2.9545vw, 3.125rem);
-  font-weight: bold;
-  margin-bottom: 20px;
-  text-align: center;
-
-}
-.leatest_contect p{
-    font-size: 22px;
-  color:rgba(0, 0, 0, 0.50);
-
-}
-.leatest_img{
-  display: flex;
-  margin: 20px 0;
-  gap: 28px;
- 
-}
-.leatest_right_img img{
-  border-radius: 20px;
-  
-
-}
-.leatesr_left_img{
-  gap: 28px;
-}
-.leatesr_left_img img{
-  border-radius: 20px;
-
-  
-}
-
-
-/*-- join brunch*/
-
-.join_bunch{
-  display: flex;
- background-image: url(./image/news-letter-bg.png);
- background-size: cover;
- background-repeat: no-repeat;
- width: 1440;
- height: 533px;
- justify-content: center;
- align-items: center;
-  
-}
-
-.join_content{
-  width: 830px;
-  height: 141px;
-  text-align: center;
-}
-  
-.join_heading{
-  font-size: clamp(1.5rem, 0.9091rem + 2.9545vw, 3.125rem);
-  font-weight: bold;
-  color: #fff;
-  margin-bottom: 20px;
-}
-.search_from{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-input{
-  padding-left: 20px;
-  font-size: 16px;
-  color:rgba(0, 0, 0, 0.50) ;
-  width: 830px;
-  height: 50px;
-  text-align: start;
-  border: none;
-}
-.join_btn{
- background-color: #e95a08;
- width: 186px;
- height: 50px;
- font-size: 16px;
- text-align: center;
- border: none;
- padding: 15px;
- color: #fff;
- font-weight: 600;
- cursor: pointer;
- 
-  
- 
+.middle_right ul li a {
+  color: rgba(0, 0, 0, 0.5);
 }
